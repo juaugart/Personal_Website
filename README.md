@@ -1,2 +1,3 @@
 # Personal_Website
-Project for Fullstack Academy
+Project for Fullstack Academy.
+Each html has a specific css that pairs.
