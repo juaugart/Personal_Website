@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d280548807.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!----------Home Start-------------------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        <div class="header-text"></div>
+              <p style="color: #e9e9e9;margin-bottom: 40px;">IT Support, Upcoming Developer, Avid Learner</p>
+              <h1 style="color: #b3b3b3;">
+                Eager to expand my knowledge in the IT world,<br>ready to take on any task that comes my way.</h1>
+                <h3 class="quote">“Good times become good memories, but bad times make good lessons.” <br />- Iroh "The Dragon of The West" </h3>
+        </div>
+    </div>
+<!----------Home End-------------------->
+<!----------About Start----------------------->
+<div id="about">
+    <div class="con">
+        <div class="row">
+              <div class="about-column-1">
+                <img src="images/me.jpg" style="width: 450px;">
+              </div>
+            <div class="about-column-2">
+               <h1 class="sub-title">About Me</h1>
+                <p>Invested learner with knack for critical research and troubleshooting to contribute to maintaining system viability. Offers flexible assistance to Amazon in support of technology customization, installation and problematic fixes. Organized approach to support detailed inventory and performance assessment. Superb collaboration with IT team members to support hardware and software maintenance.</p>
+                <div class="tab-titles">
+                   <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                   <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                   <p class="tab-links"onclick="opentab('education')">Education</p>
+                   <p class="tab-links"onclick="opentab('hobbies')">Hobbies</p>
+                </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
+                        <li><span>IT Support</span><br>Hardware and Software Troubleshooting</li>
+                        <li><span>Problem Solver</span><br>Creative Thinking, Time Management</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020-Present</span><br>Ops Tech Solutions EC, Amazon </li>
+                        <li><span>2018-2020</span><br>Senior Technician, Valvoline Inc.</li>
+                        <li><span>2015-2018</span><br>Assistant Manager, Orange Leaf</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Estimated 2023</span><br>Fullstack Academy, Web Development Certification & AWS Cloud Practitioner Certification</li>
+                        <li><span>Estimated 2023</span><br>LinkedIn Learning, CompTIA A+ & Network+</li>
+                        <li><span>2016</span><br>William H Taft Highschool, Diploma</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="hobbies">
+                    <ul>
+                        <li><span>Gaming</span><br>FPS, MOBA, JRPG, Platformers, Rythm, Puzzle</li>
+                        <li><span>Nerd Shows/Movies</span><br>Anime, Star Wars, Harry Potter, Middle Earth</li>
+                        <li><span>Concerts</span><br>Metal, EDM, Rap, Pop, Classical</li>
+                        <li><span>Hanging With My Pets</span><br>Hiking & Training Dogs, Cuddling Cats</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------About End----------------------->
+<!----------Services Start----------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code fa-fade"></i>
+                <h2> Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur provident dignissimos facere fuga doloremque sapiente recusandae, placeat deleniti nemo magni odit tempore veniam unde, ea expedita nam laboriosam quisquam.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-computer fa-fade"></i>
+                <h2> IT Support</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur provident dignissimos facere fuga doloremque sapiente recusandae, placeat deleniti nemo magni odit tempore veniam unde, ea expedita nam laboriosam quisquam.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <!-------Extra service if needed---
+            <div>
+                <i class="fa-solid fa-cubes fa-bounce"></i>
+                <h2> Service#3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur provident dignissimos facere fuga doloremque sapiente recusandae, placeat deleniti nemo magni odit tempore veniam unde, ea expedita nam laboriosam quisquam.</p>
+                <a href="#">Learn More</a>
+            </div>
+            --------->
+        </div>
+    </div>
+</div>
+<!----------Services End----------------------->
+<!----------Portfolio Start----------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                  <div class="layer">
+                     <h3>Zoo Project</h3>
+                     <p>Zoo website I created to act like a info center about different types of zoo animals.</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a>
+                  </div>
+            </div>
+            <div class="work">     
+                <img src="images/work-2.png">
+                  <div class="layer">
+                     <h3>Grocery List</h3>
+                     <p>Assignment to create a grocery list using the basic html and css we know.</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a>
+                  </div>
+            </div>
+            <div class="work">
+                 <img src="images/work-3.png">
+                  <div class="layer">
+                     <h3>Vault Assignment</h3>
+                     <p>Created a pop-up using JavaScript to unlock a secret vault.</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a>
+                 </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See More</a>
+    </div>
+</div>
+<!----------Portfolio Ending----------------------->
+<!----------Contact Start----------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Ugarte.1j@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i></i></i>(210)996-8697</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/juan-ugarte-3752231a7/"><i class="fa-brands fa-linkedin fa-fade"></i></a>
+                </div>
+                <a href="images/Juan-Ugarte-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Juan Ugarte. Made for Fullstack Academy personal website workshop. </p>
+    </div>
+</div>
+
+<script>
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   function opentab(tabname){
+       for(tablink of tablinks){
+       tablink.classList.remove("active-link");
+       }
+       for(tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link")
+       document.getElementById(tabname).classList.add("active-tab")
+   }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzLRokiFaNtbTP9nN6SemlKPrGAK9Yd4-ybWT8-2yS-GQZeTGo8j7osiCit2BCNmd9gWA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
